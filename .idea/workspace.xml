@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f299cd05-f11a-405f-8e8f-aa4152094c30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0002_rename_user_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0003_alter_studentanswer_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0004_remove_test_is_finished.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0005_test_is_finished_alter_studentanswer_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0006_alter_studentanswer_student_alter_test_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

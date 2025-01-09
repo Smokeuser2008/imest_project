@@ -37,6 +37,9 @@ class Test(models.Model):
 
     def __str__(self):
         return self.title
+    
+    if is_finished == finished_at:
+        is_finished = True
 
 # Модель вопроса
 # Модель вопроса
