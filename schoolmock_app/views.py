@@ -66,7 +66,8 @@ class TestViewSet(viewsets.ModelViewSet):
                     # Save student's answer
                     StudentAnswer.objects.create(
                         student=student,
-                        test=test,
+                        test_id=test,
+                        is_finished=True,
                         question=question,
                         answer_option_id=answer_id,
                         points_awarded=points_awarded,
@@ -83,12 +84,8 @@ class TestViewSet(viewsets.ModelViewSet):
                     return Response({'error': f'Question with id {question_id} does not exist.'}, 
                                     status=status.HTTP_400_BAD_REQUEST)
 
-
-            if test.is_finished == test.finished_at:
-                test.is_finished = True
+                # test.is_finished = True
                 test.save()
-            else:
-                test.is_finished = False
 
         except Exception as e:
             return Response({'error': 'An error occurred while processing answers.', 'details': str(e)}, 
