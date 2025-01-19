@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f299cd05-f11a-405f-8e8f-aa4152094c30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0002_rename_user_profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0003_alter_studentanswer_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0004_remove_test_is_finished.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0005_test_is_finished_alter_studentanswer_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmock_app/migrations/0006_alter_studentanswer_student_alter_test_teacher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +38,25 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Abdulkhamid/Desktop/IT/IMEST/schoolmock_imest&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Abdulkhamid/Desktop/IT/IMEST/schoolmock_imest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +65,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731580205281</updated>
+      <workItem from="1736676675043" duration="100000" />
+      <workItem from="1736677003011" duration="16000" />
+      <workItem from="1736863936652" duration="270000" />
+      <workItem from="1736864361371" duration="348000" />
+      <workItem from="1736864961310" duration="29000" />
+      <workItem from="1736865418292" duration="16000" />
+      <workItem from="1736865589925" duration="442000" />
+      <workItem from="1736866304165" duration="45000" />
+      <workItem from="1736866732021" duration="176000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

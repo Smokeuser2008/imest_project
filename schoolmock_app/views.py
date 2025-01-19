@@ -22,6 +22,7 @@ class TestViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['post'])
     def submit_answer(self, request, pk=None):
         test = self.get_object()
+        test_id = self.get_object()
         
         # Check if the test is already finished
         if test.is_finished:
@@ -86,6 +87,7 @@ class TestViewSet(viewsets.ModelViewSet):
 
                 # test.is_finished = True
                 test.save()
+                test_id.save()
 
         except Exception as e:
             return Response({'error': 'An error occurred while processing answers.', 'details': str(e)}, 

@@ -65,11 +65,11 @@ class AnswerOption(models.Model):
 class StudentAnswer(models.Model):
     student = models.ForeignKey(User, on_delete=models.CASCADE)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    answer_option = models.ForeignKey(AnswerOption, on_delete=models.CASCADE, null=True, blank=True)
     text_answer = models.TextField(null=True, blank=True)
+    test_id = models.ForeignKey(Test, on_delete=models.SET_NULL, null=True, related_name='students_answer')
+    answer_option = models.ForeignKey(AnswerOption, on_delete=models.CASCADE, null=True, blank=True)
     points_awarded = models.IntegerField(default=0)
     is_finished = models.BooleanField(default=False)
-    test_id = models.ForeignKey(Test, on_delete=models.SET_NULL, null=True, related_name='students_answer')
 
     def __str__(self):
         return f"Answer by {self.student} for {self.test_id}"

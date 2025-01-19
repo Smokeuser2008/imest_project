@@ -27,8 +27,8 @@ class QuestionAdmin(admin.ModelAdmin):
 
 @admin.register(StudentAnswer)
 class StudentAnswerAdmin(admin.ModelAdmin):
-    list_display = ('student', 'test_id', 'is_finished', 'question', 'get_answer_text', 'points_awarded', 'total_points')
-    list_filter = ('test_id', 'student', 'is_finished',)
+    list_display = ('student', 'test_id', 'question', 'get_answer_text', 'is_finished', 'answer_option', 'points_awarded', 'total_points',)
+    list_filter = ('test_id', 'student',)
 
     def get_answer_text(self, obj):
         """Display the text of the selected answer option."""
